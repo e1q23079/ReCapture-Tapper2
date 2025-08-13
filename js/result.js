@@ -1,5 +1,5 @@
 // 音声読み込み
-const Audio01 = new Audio("/contents/se/se01.mp3");
+const Audio01 = new Audio("contents/se/se01.mp3");
 // 音声再生
 Audio01.play();
 
@@ -71,5 +71,5 @@ window.onload = function () {
 
 // 戻る
 function back() {
-    window.location.href = '/start.html';
+    window.location.href = 'start.html';
 }

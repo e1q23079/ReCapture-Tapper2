@@ -1,4 +1,4 @@
 // スタート
 function start() {
-    window.location.href = "/play.html"
+    window.location.href = "play.html"
 }

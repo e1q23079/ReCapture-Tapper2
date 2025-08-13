@@ -1,6 +1,6 @@
 // 音声
-const Audio02 = new Audio("/contents/se/se02.mp3");
-const Audio03 = new Audio("/contents/se/se03.mp3");
+const Audio02 = new Audio("contents/se/se02.mp3");
+const Audio03 = new Audio("contents/se/se03.mp3");
 
 // データを送信（POST）
 async function sendData(time) {
@@ -29,7 +29,7 @@ async function check() {
         //alert("クリア");
         // 音を鳴らす
         await sendData(time);
-        window.location.href = `/result.html?${time}`;
+        window.location.href = `result.html?${time}`;
     }
 };
 
@@ -78,7 +78,7 @@ var out = function () {
 
 // 戻る
 function back() {
-    if(window.confirm("本当に終了しますか？")){
-        window.location.href = '/start.html';
+    if (window.confirm("本当に終了しますか？")) {
+        window.location.href = 'start.html';
     }
 }
